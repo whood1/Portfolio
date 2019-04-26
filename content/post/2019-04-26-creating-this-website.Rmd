@@ -10,10 +10,6 @@ image:
   focal_point: ''
 ---
 
-# Creating This Website
-
-
-
 This simple personal website was made following this book: [blogdown: Creating Websites with R Markdown](<https://bookdown.org/yihui/blogdown/>)
 
 I am using it as a simple, easily managed portfolio and personal website, documenting personal projects and other content.

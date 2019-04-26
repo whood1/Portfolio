@@ -17,7 +17,7 @@
       <pubDate>Fri, 26 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/creating-this-website/</guid>
-      <description>Creating This WebsiteThis simple personal website was made following this book: blogdown: Creating Websites with R Markdown
+      <description>This simple personal website was made following this book: blogdown: Creating Websites with R Markdown
 I am using it as a simple, easily managed portfolio and personal website, documenting personal projects and other content.
 Technologies Used:Markdown (Using Typora)R (Using R Studio)GithubNetlifyAll posts are written in Typora, my preferred Markdown editor. Markdown is a simple markup language, that I think makes exceptionally clean and modern websites.</description>
     </item>
