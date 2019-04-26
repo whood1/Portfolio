@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 40  # Order that this section will appear.
 
-title = "Experience"
+title = "Education"
 subtitle = ""
 
 # Date format for experience
@@ -18,27 +18,30 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
+  title = "Student"
+  company = "Extet West Greenwhich Regional High School"
   company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
-  date_end = ""
+  location = "Rhode Island"
+  date_start = "2014-09-03"
+  date_end = "2018-06-24"
   description = """
-  Responsibilities include:
+  Accomplishments:
   
-  * Analysing
-  * Modelling
-  * Deploying
+  * 99th Percentile SAT and ACT scores
+  * 4.5 Weighted GPA
+  * 5s & 4s on AP
+  * 3rd in graduating class
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
+  title = "Student"
+  company = "The Johns Hopkins University"
   company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  location = "Baltimore, Maryland"
+  date_start = "2018-08-08"
+  date_end = ""
+  description = """Current computer science student.
+  
+  Expected Graduatuion Year: 2022"""
 
 +++
