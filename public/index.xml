@@ -6,9 +6,40 @@
     <description>Recent content on Portfolio</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 26 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Creating This Website</title>
+      <link>/post/creating-this-website/</link>
+      <pubDate>Fri, 26 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/creating-this-website/</guid>
+      <description>
+
+
+&lt;div id=&#34;creating-this-website&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Creating This Website&lt;/h1&gt;
+&lt;p&gt;This simple personal website was made following this book: &lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34;&gt;blogdown: Creating Websites with R Markdown&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I am using it as a simple, easily managed portfolio and personal website, documenting personal projects and other content.&lt;/p&gt;
+&lt;div id=&#34;technologies-used&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Technologies Used:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Markdown (Using Typora)&lt;/li&gt;
+&lt;li&gt;R (Using R Studio)&lt;/li&gt;
+&lt;li&gt;Github&lt;/li&gt;
+&lt;li&gt;Netlify&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All posts are written in Typora, my preferred Markdown editor. Markdown is a simple markup language, that I think makes exceptionally clean and modern websites.&lt;/p&gt;
+&lt;p&gt;The website is generated using blogdown and hugo, as described in the mentioned book. The theme is &lt;a href=&#34;https://github.com/gcushen/hugo-academic&#34;&gt;Academic&lt;/a&gt;, which again I think is lightweight and stylish.&lt;/p&gt;
+&lt;p&gt;As the website is edited or new posts created, the files are updated in a Github repository that is then linked to Netlify and automatically updated.&lt;/p&gt;
+&lt;p&gt;As of writing this, my next aim is to further customize and optimize the site for my purposes, and to purchase and setup a domain name, along with launching a similar website for my planned tutoring business.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
   </channel>
 </rss>
