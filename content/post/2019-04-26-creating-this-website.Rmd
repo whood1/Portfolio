@@ -1,0 +1,41 @@
+---
+title: Creating This Website
+author: William Hood
+date: '2019-04-26'
+slug: creating-this-website
+categories: []
+tags: []
+image:
+  caption: ''
+  focal_point: ''
+---
+
+# Creating This Website
+
+
+
+This simple personal website was made following this book: [blogdown: Creating Websites with R Markdown](<https://bookdown.org/yihui/blogdown/>)
+
+I am using it as a simple, easily managed portfolio and personal website, documenting personal projects and other content.
+
+
+
+### Technologies Used:
+
+* Markdown (Using Typora)
+* R (Using R Studio)
+* Github
+* Netlify
+
+
+
+All posts are written in Typora, my preferred Markdown editor. Markdown is a simple markup language, that I think makes exceptionally clean and modern websites.
+
+The website is generated using blogdown and hugo, as described in the mentioned book. The theme is [Academic](<https://github.com/gcushen/hugo-academic>), which again I think is lightweight and stylish.
+
+As the website is edited or new posts created, the files are updated in a Github repository that is then linked to Netlify and automatically updated. 
+
+As of writing this, my next aim is to further customize and optimize the site for my purposes, and to purchase and setup a domain name, along with launching a similar website for my planned tutoring business.
+
+
+
