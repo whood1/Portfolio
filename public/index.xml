@@ -6,10 +6,132 @@
     <description>Recent content on Portfolio</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 May 2019 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Learning HTML: Basics</title>
+      <link>/post/learning-html-basics/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/learning-html-basics/</guid>
+      <description>
+
+
+&lt;p&gt;I have created and setup a decent rough outline of my tutoring website (along with buying ritutoring.com and wlhood.com), but I want to edit the theme files to make it look better. I beleive the edits I want to make would be done through CSS, but the two go hand in hand and I’d rather just start with the foundations and learn HTML and CSS and get into good habits before I jump into the weeds more with Java and whatever else I want to get into.&lt;/p&gt;
+&lt;p&gt;I’m rationalizing this by thinking of the value of having a professional website as a portfolio to show off my skills, and also to force myself in this self-study journey to take notes I can come back to.&lt;/p&gt;
+&lt;div id=&#34;basic-html&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Basic HTML&lt;/h2&gt;
+&lt;p&gt;HTML is a &lt;strong&gt;tag-based&lt;/strong&gt; language, it is built with &lt;strong&gt;elements&lt;/strong&gt;. Elements have &lt;strong&gt;start and end tags&lt;/strong&gt;, the end tag being identical except it starts with a forward slash. Elements can be within elements.
+Some tags like img or br are &lt;strong&gt;empty tags&lt;/strong&gt;, there is only one (see below examples).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;!DOCTYPE&lt;/li&gt;
+&lt;li&gt;Structure&lt;/li&gt;
+&lt;li&gt;Text &amp;amp; Images&lt;/li&gt;
+&lt;li&gt;Lists&lt;/li&gt;
+&lt;li&gt;Style&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div id=&#34;doctype&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;!DOCTYPE&lt;/h4&gt;
+&lt;p&gt;The top line of the html file has this code&lt;/p&gt;
+&lt;pre class=&#34;html&#34;&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Signals that the file is written in HTML5 code.
+The entire body of the html document is surround by the tag html.&lt;/p&gt;
+&lt;pre class=&#34;html&#34;&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html&amp;gt; 
+
+&amp;lt;/html&amp;gt; &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;structure&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Structure&lt;/h4&gt;
+&lt;p&gt;The actual page is split into the head, the meta data of the page, and the body, the actual body of the page.
+Metadata is information about the page that isnt displayed.&lt;/p&gt;
+&lt;pre class=&#34;html&#34;&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html&amp;gt;
+   &amp;lt;head&amp;gt;
+   
+   &amp;lt;/head&amp;gt;
+   
+   &amp;lt;body&amp;gt;
+   
+   &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;text-images&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Text &amp;amp; Images&lt;/h4&gt;
+&lt;p&gt;Within the header you can set the title, the text displayed on the browser tab.
+Within the body, titles and subtitles can be made with h1 through h6, largest to smallest. Regular text can be written within paragraphs, p. A line break can be inserted anywhere with br. Images in the same folder as the html document can be inserted with img. A horizontal rule (horizontal line to speerate content) can be inserted with hr.&lt;/p&gt;
+&lt;pre class=&#34;html&#34;&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html&amp;gt;
+   &amp;lt;head&amp;gt;
+      &amp;lt;title&amp;gt; Title &amp;lt;/title&amp;gt;
+   &amp;lt;/head&amp;gt;
+   
+   &amp;lt;body&amp;gt;
+      &amp;lt;h1&amp;gt; Biggest Header&amp;lt;/h1&amp;gt;
+      &amp;lt;h6&amp;gt;Smallest Header&amp;lt;/6&amp;gt;
+      &amp;lt;p&amp;gt; Regular paragraph text&amp;lt;/p&amp;gt;
+      &amp;lt;p&amp;gt; Broken &amp;lt;br&amp;gt; Paragraph&amp;lt;/P&amp;gt;
+      &amp;lt;hr&amp;gt;
+      
+      &amp;lt;img src=&amp;quot;example.png&amp;quot; alt=&amp;quot;example alt text&amp;quot; width=&amp;quot;&amp;quot; height=&amp;quot;&amp;quot;&amp;gt;
+   &amp;lt;/body&amp;gt;
+&amp;lt;/html&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Within the img tag, src signifies the image file name, alt represents the text that will show if for some reason the image cannot be displayed. Width and height set the width and height of the image.&lt;/p&gt;
+&lt;p&gt;Text within p tags cannot be formamted with spaces and line breaks without tags. Pre tags can be used to retain line breaks and extra spaces between words.&lt;/p&gt;
+&lt;pre class=&#34;html&#34;&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html&amp;gt;
+   &amp;lt;body&amp;gt;
+      &amp;lt;pre&amp;gt;
+      Line         breaks
+      and     spaces    maintained
+      &amp;lt;/pre&amp;gt;
+      
+      &amp;lt;p&amp;gt;
+      Line       breaks   
+      and    spaces   NOT   maintained
+      &amp;lt;/p&amp;gt;
+   &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;lists&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Lists&lt;/h4&gt;
+&lt;p&gt;You can make two types of simple lists, ordered and unordered. Unordered lists are marked with bullet points, ordered lists are marked with increasing numbers.
+ul and ol determine unordered/ordered, and every list item is denoted with li.&lt;/p&gt;
+&lt;pre class=&#34;html&#34;&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html&amp;gt;
+   &amp;lt;body&amp;gt;
+   
+      &amp;lt;ul&amp;gt;
+         &amp;lt;li&amp;gt; Ex List Item &amp;lt;/li&amp;gt;
+      &amp;lt;/ul&amp;gt;
+      
+      &amp;lt;ol&amp;gt;
+         &amp;lt;li&amp;gt; Ex List Item &amp;lt;/li&amp;gt;
+      &amp;lt;/ol&amp;gt;
+      
+   &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;####Style
+Color, font, and size can be set with the &lt;strong&gt;style&lt;/strong&gt; attribute. &lt;strong&gt;Attributes&lt;/strong&gt; go within the start tag of an element, and effect only that element. Other attributes are img.&lt;/p&gt;
+&lt;p&gt;Style’s use CSS to change color, size, etc.&lt;/p&gt;
+&lt;p&gt;lang: Attribute for html to set language
+title: Attribute for p to create tooltip
+background-color: Attribute for body to set background color&lt;/p&gt;
+&lt;p&gt;Attribute text should be in double quotes, or single quotes if neccesary.&lt;/p&gt;
+&lt;pre class=&#34;html&#34;&gt;&lt;code&gt;&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
+   &amp;lt;body&amp;gt;
+      &amp;lt;p style=&amp;quot;color: red&amp;quot;&amp;gt; Colored Text &amp;lt;/p&amp;gt;
+      &amp;lt;p title=&amp;quot;Tooltip when hovered&amp;quot;&amp;gt; Paragraph &amp;lt;/p&amp;gt;
+   &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Creating This Website</title>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>coding on Portfolio</title>
+    <link>/tags/coding/</link>
+    <description>Recent content in coding on Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/coding/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Learning HTML: Basics</title>
+      <link>/post/learning-html-basics/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/learning-html-basics/</guid>
+      <description>I have created and setup a decent rough outline of my tutoring website (along with buying ritutoring.com and wlhood.com), but I want to edit the theme files to make it look better. I beleive the edits I want to make would be done through CSS, but the two go hand in hand and I’d rather just start with the foundations and learn HTML and CSS and get into good habits before I jump into the weeds more with Java and whatever else I want to get into.</description>
+    </item>
+    
+  </channel>
+</rss>
