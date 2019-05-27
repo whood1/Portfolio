@@ -6,10 +6,29 @@
     <description>Recent content in begginer on Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/begginer/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Setting Up Ecommerce</title>
+      <link>/post/setting-up-ecommerce/</link>
+      <pubDate>Mon, 27 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/setting-up-ecommerce/</guid>
+      <description>Setting up E-Commerce After everything I learned yesterday trying to set this stuff up on ritutoring.com I really have been reinvorgorated to pursue what I&amp;rsquo;ve been doing. I can compare it to when I started working out and first noticed some more size/definition somehwere; I finally feel like I&amp;rsquo;m making progress and figuring things out, compartimentalizing and filing them away, gaining experience with the tools and systems used in industry, etc etc etc.</description>
+    </item>
+    
+    <item>
+      <title>Android App Dev (Java)</title>
+      <link>/post/android-app-dev-java/</link>
+      <pubDate>Wed, 22 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/android-app-dev-java/</guid>
+      <description>After taking Gateway Computing: Java at Hopkins last semester, I have decided that making some kind of android app would probably be the best way to further my java knowledge and know-how, keep my coding skills sharp, and make something I can personally use and tht I can add to my resume as a project, and maybe even release.
+The App I think fitness tracker/helper type app would be a good first option.</description>
+    </item>
     
     <item>
       <title>Learning HTML: Basics</title>

@@ -6,10 +6,67 @@
     <description>Recent content on Portfolio</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 May 2019 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Setting Up Ecommerce</title>
+      <link>/post/setting-up-ecommerce/</link>
+      <pubDate>Mon, 27 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/setting-up-ecommerce/</guid>
+      <description>
+
+&lt;h2 id=&#34;setting-up-e-commerce&#34;&gt;Setting up E-Commerce&lt;/h2&gt;
+
+&lt;p&gt;After everything I learned yesterday trying to set this stuff up on ritutoring.com I really have been reinvorgorated to pursue what I&amp;rsquo;ve been doing. I can compare it to when I started working out and first noticed some more size/definition somehwere; I finally feel like I&amp;rsquo;m making progress and figuring things out, compartimentalizing and filing them away, gaining experience with the tools and systems used in industry, etc etc etc.&lt;/p&gt;
+
+&lt;p&gt;Back to what this post is actually about.&lt;/p&gt;
+
+&lt;p&gt;Yesterday I started looking into what would be the best way to let people pay online from the website for tutoring instead of having to fuck around with paypal invoices or cash r anything like that thats just bound to stab my lazy ass in the back if I went with it.
+Started looking into other options, and went through a ton of them before finding things that would actually work. My current solution is to just let them pay and schedule time/date/location over email on an individual basis. If that gets out of hand I think I&amp;rsquo;ll have to migrate it to something that includes bookings, but I think that will be far enough in the future that waiting will be fine. I don&amp;rsquo;t anticipate enough volume for it to be an issue.&lt;/p&gt;
+
+&lt;p&gt;To the specifics, I ended up doing alot of research on different payment providers and eccomerce offerings. I ended up with Stripe; they seem like the most dedicated to technology and actually making things work properly and smoothly. I would have loved to use their builting Checkout thing but it wont work on a static Hugo website without jumping through hoops I dont want to deal with to setup some backend shit. I ended up sticking with stripe as the payment processor and link to my bank account, while using Snipcart on the front end for the actual shopping cart on the website.&lt;/p&gt;
+
+&lt;p&gt;I think they also take some of my fucking money, but the customization and ease and scalability is probably worth it. I&amp;rsquo;m hoping that I&amp;rsquo;ll be able to intregare some kind of booking system with Snipcart itself, making make different products for each session and then only have 1 in stock per week? I&amp;rsquo;ll cross the bridge when it becomes an issue.&lt;/p&gt;
+
+&lt;h3 id=&#34;business-structure&#34;&gt;Business Structure&lt;/h3&gt;
+
+&lt;p&gt;I also spent alot of time doing research as to how I should setup this business legally.
+The easiest and cheapest way seems to be just registering a DBA name with the town and hiring Lacey as a 1099 contractor and paying her hourly for whatever tutoring she does.&lt;/p&gt;
+
+&lt;p&gt;It may also be cool to try and get an LLC or something official sounding going that I can put on my resume and look ambitious, but I&amp;rsquo;ll save that for next summer (or I guess semester if things really take off? Not likely).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Android App Dev (Java)</title>
+      <link>/post/android-app-dev-java/</link>
+      <pubDate>Wed, 22 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/android-app-dev-java/</guid>
+      <description>
+
+&lt;p&gt;After taking Gateway Computing: Java at Hopkins last semester, I have decided that making some kind of android app would probably be the best way to further my java knowledge and know-how, keep my coding skills sharp, and make something I can personally use and tht I can add to my resume as a project, and maybe even release.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-app&#34;&gt;The App&lt;/h3&gt;
+
+&lt;p&gt;I think fitness tracker/helper type app would be a good first option. Its simple and straightforward in the right kind of way; I can make something that looks nice and is function and serves an actual concrete purpose. Its starting with my feet on the ground while giving my some room to expand upwards.
+The name is still to be decided.&lt;/p&gt;
+
+&lt;h5 id=&#34;planned-features&#34;&gt;Planned Features&lt;/h5&gt;
+
+&lt;p&gt;Ideally I am making this app for myself; I want to be able to program and track workouts and weights, see progress over time and stats like that, be able to input notes about certain workouts.
+Maybe have a timer so a &amp;lsquo;workout&amp;rsquo; can be ran through and done with certain intervals. A long term calendar view, number of workouts until a cheat meal, etc.&lt;/p&gt;
+
+&lt;h3 id=&#34;progress-so-far&#34;&gt;Progress So Far&lt;/h3&gt;
+
+&lt;p&gt;So far I have been reading through some &amp;lsquo;first java app&amp;rsquo; type tutorials. Understanding the file structure of apps in general, the terminology, the way things are structured nd put together, dealing with all the different android sizes and distributions and features (Not something I have considered up until now), and other things of that nature.
+My goal is to finish the tutorial I&amp;rsquo;ve been following and then just jump into making my app, just starting slow with the implementations, using git for version control, doing things right hopefully. Cheers.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Installing Linux Fedora and Mint</title>
