@@ -6,10 +6,21 @@
     <description>Recent content in tutorial on Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>HTML Basics: 2</title>
+      <link>/post/html-basics-2/</link>
+      <pubDate>Fri, 03 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/html-basics-2/</guid>
+      <description>This page is a continuation of the previous post about me learning HTML and CSS.
+CSS Stands for Cascading Style Sheets, a way to define how HTML pages look. CSS can control how multiple pages look at once. Can be done inline, like with the previously mentioned style options.
+&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html&amp;gt;&amp;lt;body&amp;gt;&amp;lt;h1 style=&amp;quot;color:red&amp;quot;&amp;gt; Example Header &amp;lt;/h1&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;Can also be done internally, within the style HTML tags within the head to set style for all the same elements in the HTML document.</description>
+    </item>
     
     <item>
       <title>Learning HTML: Basics</title>

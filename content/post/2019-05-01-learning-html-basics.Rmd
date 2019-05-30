@@ -27,6 +27,7 @@ Some tags like img or br are **empty tags**, there is only one (see below exampl
 * Text & Images
 * Lists
 * Style
+* Formatting
 
 #### !DOCTYPE
 
@@ -78,14 +79,14 @@ Within the body, titles and subtitles can be made with h1 through h6, largest to
    
    <body>
       <h1> Biggest Header</h1>
-      <h6>Smallest Header</6>
+      <h6> Smallest Header</h6>
       <p> Regular paragraph text</p>
       <p> Broken <br> Paragraph</P>
       <hr>
       
       <img src="example.png" alt="example alt text" width="" height="">
    </body>
-</html
+</html>
 ```
 Within the img tag, src signifies the image file name, alt represents the text that will show if for some reason the image cannot be displayed. Width and height set the width and height of the image.
 
@@ -148,6 +149,9 @@ Attribute text should be in double quotes, or single quotes if neccesary.
    </body>
 </html>
 ```
+
+#### Formatting
+Text can be further formatted with tags within text elements.
 
 
 

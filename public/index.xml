@@ -6,10 +6,80 @@
     <description>Recent content on Portfolio</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 May 2019 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>HTML Basics: 2</title>
+      <link>/post/html-basics-2/</link>
+      <pubDate>Fri, 03 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/html-basics-2/</guid>
+      <description>
+
+
+&lt;p&gt;This page is a continuation of the previous post about me learning HTML and CSS.&lt;/p&gt;
+&lt;p&gt;CSS Stands for Cascading Style Sheets, a way to define how HTML pages look. CSS can control how multiple pages look at once. Can be done &lt;strong&gt;inline&lt;/strong&gt;, like with the previously mentioned style options.&lt;/p&gt;
+&lt;pre class=&#34;html&#34;&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html&amp;gt;
+   &amp;lt;body&amp;gt;
+      &amp;lt;h1 style=&amp;quot;color:red&amp;quot;&amp;gt; Example Header &amp;lt;/h1&amp;gt;
+   &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Can also be done &lt;strong&gt;internally&lt;/strong&gt;, within the style HTML tags within the head to set style for all the same elements in the HTML document.&lt;/p&gt;
+&lt;pre class=&#34;html&#34;&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html&amp;gt;
+   &amp;lt;head&amp;gt;
+      &amp;lt;style&amp;gt;
+         body {background-color: blue;}
+         h1 {color: red;}
+         p {color: yellow;}
+      &amp;lt;/style&amp;gt;
+   &amp;lt;/head&amp;gt;
+&amp;lt;/html&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Finally can be done externally with its own CSS file. This is linked to in the head section of a HTML document.&lt;/p&gt;
+&lt;pre class=&#34;html&#34;&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html&amp;gt;
+   &amp;lt;head&amp;gt;
+      &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;style.css&amp;quot;&amp;gt;
+   &amp;lt;/head&amp;gt;
+&amp;lt;/html&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;CSS has many customizeable options like this, border, margin, padding, etc. Specific html elements can be given an id, image you wanted to have every paragraph but one red, and the last one blue. You can set an internal paragraph style and give the different paragraph a specific id that will only set the color for that one element.
+This same idea is applicable through the class attribute, instead of one specific id to one specific element, classes of elements with the same styling can be created&lt;/p&gt;
+&lt;pre class=&#34;html&#34;&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html&amp;gt;
+   &amp;lt;head&amp;gt;
+      &amp;lt;style&amp;gt;
+        p {color: red;}
+        #pBlue {color: blue:}
+        p.exampleClass {color: yellow;}
+
+      &amp;lt;/style&amp;gt;
+   &amp;lt;/head&amp;gt;
+
+   &amp;lt;body&amp;gt;
+      &amp;lt;p&amp;gt;Red&amp;lt;/p&amp;gt;
+      &amp;lt;p&amp;gt;Red&amp;lt;/p&amp;gt;
+      &amp;lt;p&amp;gt;Red&amp;lt;/p&amp;gt;
+      &amp;lt;p id=&amp;quot;pBlue&amp;quot;&amp;gt; Blue &amp;lt;p&amp;gt;
+      &amp;lt;p class=&amp;quot;exampleClass&amp;quot;&amp;gt; Example &amp;lt;/p&amp;gt;
+      &amp;lt;p class=&amp;quot;exampleClass&amp;quot;&amp;gt; Same styling, same class &amp;lt;/p&amp;gt;
+   &amp;lt;/body&amp;gt;
+
+&amp;lt;/html&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We have already talked about links, but they can also be customized by css, changing appearanece and functionality of links. Images are commonly made into links.&lt;/p&gt;
+&lt;pre class=&#34;html&#34;&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html&amp;gt;
+   &amp;lt;body&amp;gt;
+      &amp;lt;a href=&amp;quot;https://Google.com&amp;quot;&amp;gt;
+         &amp;lt;img src=&amp;quot;example.png&amp;quot; alt=&amp;quot;Example Image&amp;quot; widith=&amp;quot;400&amp;quot; height=&amp;quot;200&amp;quot;&amp;gt;
+      &amp;lt;/a&amp;gt;
+   &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>Learning HTML: Basics</title>
@@ -32,6 +102,7 @@ Some tags like img or br are &lt;strong&gt;empty tags&lt;/strong&gt;, there is o
 &lt;li&gt;Text &amp;amp; Images&lt;/li&gt;
 &lt;li&gt;Lists&lt;/li&gt;
 &lt;li&gt;Style&lt;/li&gt;
+&lt;li&gt;Formatting&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div id=&#34;doctype&#34; class=&#34;section level4&#34;&gt;
 &lt;h4&gt;!DOCTYPE&lt;/h4&gt;
@@ -72,14 +143,14 @@ Within the body, titles and subtitles can be made with h1 through h6, largest to
    
    &amp;lt;body&amp;gt;
       &amp;lt;h1&amp;gt; Biggest Header&amp;lt;/h1&amp;gt;
-      &amp;lt;h6&amp;gt;Smallest Header&amp;lt;/6&amp;gt;
+      &amp;lt;h6&amp;gt; Smallest Header&amp;lt;/h6&amp;gt;
       &amp;lt;p&amp;gt; Regular paragraph text&amp;lt;/p&amp;gt;
       &amp;lt;p&amp;gt; Broken &amp;lt;br&amp;gt; Paragraph&amp;lt;/P&amp;gt;
       &amp;lt;hr&amp;gt;
       
       &amp;lt;img src=&amp;quot;example.png&amp;quot; alt=&amp;quot;example alt text&amp;quot; width=&amp;quot;&amp;quot; height=&amp;quot;&amp;quot;&amp;gt;
    &amp;lt;/body&amp;gt;
-&amp;lt;/html&lt;/code&gt;&lt;/pre&gt;
+&amp;lt;/html&amp;gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Within the img tag, src signifies the image file name, alt represents the text that will show if for some reason the image cannot be displayed. Width and height set the width and height of the image.&lt;/p&gt;
 &lt;p&gt;Text within p tags cannot be formamted with spaces and line breaks without tags. Pre tags can be used to retain line breaks and extra spaces between words.&lt;/p&gt;
 &lt;pre class=&#34;html&#34;&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
@@ -128,6 +199,10 @@ background-color: Attribute for body to set background color&lt;/p&gt;
       &amp;lt;p title=&amp;quot;Tooltip when hovered&amp;quot;&amp;gt; Paragraph &amp;lt;/p&amp;gt;
    &amp;lt;/body&amp;gt;
 &amp;lt;/html&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;formatting&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Formatting&lt;/h4&gt;
+&lt;p&gt;Text can be further formatted with tags within text elements.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 </description>
